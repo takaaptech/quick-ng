@@ -1,0 +1,10 @@
+.*
+*.o
+*.xcscheme
+*.build/
+*.xccheckout
+*.xcuserstate
+*.app/
+
+xcschememanagement.plist
+contents.xcworkspacedata
