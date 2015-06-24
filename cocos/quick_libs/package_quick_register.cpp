@@ -1,4 +1,5 @@
 #include "luabinding/cocos2dx_extra_luabinding.h"
+#include "luabinding/cocos2dx_extra_ios_iap_luabinding.h"
 #include "luabinding/lua_cocos2dx_extension_filter_auto.hpp"
 #include "luabinding/lua_cocos2dx_extension_nanovg_auto.hpp"
 #include "luabinding/lua_cocos2dx_extension_nanovg_manual.hpp"
@@ -23,6 +24,10 @@ void package_quick_register()
         register_all_cocos2dx_extension_nanovg(L);
         register_all_cocos2dx_extension_nanovg_manual(L);
         luaopen_HelperFunc_luabinding(L);
+        
+#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+        luaopen_cocos2dx_extra_ios_iap_luabinding(L);
+#endif
     }
     lua_pop(L, 1);
 }

@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		857057441B102C6F008F67CF /* CCStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4A51B0D95DD00908D63 /* CCStore.h */; };
+		857057451B102C6F008F67CF /* CCStorePaymentTransaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4A61B0D95DD00908D63 /* CCStorePaymentTransaction.cpp */; };
+		857057461B102C6F008F67CF /* CCStorePaymentTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4A71B0D95DD00908D63 /* CCStorePaymentTransaction.h */; };
+		857057471B102C6F008F67CF /* CCStorePaymentTransactionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4A81B0D95DD00908D63 /* CCStorePaymentTransactionWrapper.h */; };
+		857057481B102C6F008F67CF /* CCStoreProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4A91B0D95DD00908D63 /* CCStoreProduct.cpp */; };
+		857057491B102C6F008F67CF /* CCStoreProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4AA1B0D95DD00908D63 /* CCStoreProduct.h */; };
+		8570574A1B102C6F008F67CF /* CCStoreProductsRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4AB1B0D95DD00908D63 /* CCStoreProductsRequestDelegate.h */; };
+		85D6C4AD1B0D95DD00908D63 /* CCStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4A51B0D95DD00908D63 /* CCStore.h */; };
+		85D6C4AE1B0D95DD00908D63 /* CCStorePaymentTransaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4A61B0D95DD00908D63 /* CCStorePaymentTransaction.cpp */; };
+		85D6C4AF1B0D95DD00908D63 /* CCStorePaymentTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4A71B0D95DD00908D63 /* CCStorePaymentTransaction.h */; };
+		85D6C4B01B0D95DD00908D63 /* CCStorePaymentTransactionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4A81B0D95DD00908D63 /* CCStorePaymentTransactionWrapper.h */; };
+		85D6C4B11B0D95DD00908D63 /* CCStoreProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4A91B0D95DD00908D63 /* CCStoreProduct.cpp */; };
+		85D6C4B21B0D95DD00908D63 /* CCStoreProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4AA1B0D95DD00908D63 /* CCStoreProduct.h */; };
+		85D6C4B31B0D95DD00908D63 /* CCStoreProductsRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4AB1B0D95DD00908D63 /* CCStoreProductsRequestDelegate.h */; };
+		85D6C4B41B0D95DD00908D63 /* CCStoreTransactionObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4AC1B0D95DD00908D63 /* CCStoreTransactionObserver.h */; };
+		85D6C4BB1B0D963900908D63 /* CCStore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4B51B0D963900908D63 /* CCStore.mm */; };
+		85D6C4BC1B0D963900908D63 /* CCStoreIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4B61B0D963900908D63 /* CCStoreIOS.h */; };
+		85D6C4BD1B0D963900908D63 /* CCStoreIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4B71B0D963900908D63 /* CCStoreIOS.mm */; };
+		85D6C4BE1B0D963900908D63 /* CCStorePaymentTransactionWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4B81B0D963900908D63 /* CCStorePaymentTransactionWrapper.mm */; };
+		85D6C4BF1B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D6C4B91B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.h */; };
+		85D6C4C01B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4BA1B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.mm */; };
+		85D6C4C41B0D99EB00908D63 /* cocos2dx_extra_ios_iap_luabinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D6C4C31B0D99EB00908D63 /* cocos2dx_extra_ios_iap_luabinding.cpp */; };
 		871E458B1ABA18D700A60D65 /* fpconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 871E45751ABA18D700A60D65 /* fpconv.c */; };
 		871E458C1ABA18D700A60D65 /* fpconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 871E45751ABA18D700A60D65 /* fpconv.c */; };
 		871E458D1ABA18D700A60D65 /* fpconv.h in Headers */ = {isa = PBXBuildFile; fileRef = 871E45761ABA18D700A60D65 /* fpconv.h */; };
@@ -309,6 +331,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85D6C4A51B0D95DD00908D63 /* CCStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStore.h; sourceTree = "<group>"; };
+		85D6C4A61B0D95DD00908D63 /* CCStorePaymentTransaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCStorePaymentTransaction.cpp; sourceTree = "<group>"; };
+		85D6C4A71B0D95DD00908D63 /* CCStorePaymentTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStorePaymentTransaction.h; sourceTree = "<group>"; };
+		85D6C4A81B0D95DD00908D63 /* CCStorePaymentTransactionWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStorePaymentTransactionWrapper.h; sourceTree = "<group>"; };
+		85D6C4A91B0D95DD00908D63 /* CCStoreProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCStoreProduct.cpp; sourceTree = "<group>"; };
+		85D6C4AA1B0D95DD00908D63 /* CCStoreProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoreProduct.h; sourceTree = "<group>"; };
+		85D6C4AB1B0D95DD00908D63 /* CCStoreProductsRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoreProductsRequestDelegate.h; sourceTree = "<group>"; };
+		85D6C4AC1B0D95DD00908D63 /* CCStoreTransactionObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoreTransactionObserver.h; sourceTree = "<group>"; };
+		85D6C4B51B0D963900908D63 /* CCStore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCStore.mm; sourceTree = "<group>"; };
+		85D6C4B61B0D963900908D63 /* CCStoreIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoreIOS.h; sourceTree = "<group>"; };
+		85D6C4B71B0D963900908D63 /* CCStoreIOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCStoreIOS.mm; sourceTree = "<group>"; };
+		85D6C4B81B0D963900908D63 /* CCStorePaymentTransactionWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCStorePaymentTransactionWrapper.mm; sourceTree = "<group>"; };
+		85D6C4B91B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoreReceiptVerifyRequestIOS.h; sourceTree = "<group>"; };
+		85D6C4BA1B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCStoreReceiptVerifyRequestIOS.mm; sourceTree = "<group>"; };
+		85D6C4C31B0D99EB00908D63 /* cocos2dx_extra_ios_iap_luabinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cocos2dx_extra_ios_iap_luabinding.cpp; sourceTree = "<group>"; };
 		871E45751ABA18D700A60D65 /* fpconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fpconv.c; sourceTree = "<group>"; };
 		871E45761ABA18D700A60D65 /* fpconv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpconv.h; sourceTree = "<group>"; };
 		871E45771ABA18D700A60D65 /* lua_cjson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua_cjson.c; sourceTree = "<group>"; };
@@ -519,6 +556,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85D6C4A41B0D95DD00908D63 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				85D6C4A51B0D95DD00908D63 /* CCStore.h */,
+				85D6C4A61B0D95DD00908D63 /* CCStorePaymentTransaction.cpp */,
+				85D6C4A71B0D95DD00908D63 /* CCStorePaymentTransaction.h */,
+				85D6C4A81B0D95DD00908D63 /* CCStorePaymentTransactionWrapper.h */,
+				85D6C4A91B0D95DD00908D63 /* CCStoreProduct.cpp */,
+				85D6C4AA1B0D95DD00908D63 /* CCStoreProduct.h */,
+				85D6C4AB1B0D95DD00908D63 /* CCStoreProductsRequestDelegate.h */,
+				85D6C4AC1B0D95DD00908D63 /* CCStoreTransactionObserver.h */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
 		871E45721ABA18D700A60D65 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,7 +679,6 @@
 		DABC96861A81E02900BF5CC4 /* extra */ = {
 			isa = PBXGroup;
 			children = (
-				DABC98DF1A820F1500BF5CC4 /* platform */,
 				DABC96881A81E02900BF5CC4 /* apptools */,
 				DABC968B1A81E02900BF5CC4 /* cocos2dx_extra.h */,
 				DABC968C1A81E02900BF5CC4 /* crypto */,
@@ -636,6 +687,8 @@
 				DABC970B1A81E02900BF5CC4 /* nanovg */,
 				DABC97191A81E02900BF5CC4 /* native */,
 				DABC971C1A81E02900BF5CC4 /* network */,
+				DABC98DF1A820F1500BF5CC4 /* platform */,
+				85D6C4A41B0D95DD00908D63 /* store */,
 			);
 			name = extra;
 			path = ../src/extra;
@@ -807,6 +860,7 @@
 		DABC96F91A81E02900BF5CC4 /* luabinding */ = {
 			isa = PBXGroup;
 			children = (
+				85D6C4C31B0D99EB00908D63 /* cocos2dx_extra_ios_iap_luabinding.cpp */,
 				DABC96FD1A81E02900BF5CC4 /* cocos2dx_extra_ios_iap_luabinding.h */,
 				DABC96FE1A81E02900BF5CC4 /* cocos2dx_extra_ios_iap_luabinding.tolua */,
 				DABC96FF1A81E02900BF5CC4 /* cocos2dx_extra_luabinding.cpp */,
@@ -924,12 +978,18 @@
 		DABC99521A8214CC00BF5CC4 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				DABC99761A82184500BF5CC4 /* json */,
-				DABC997F1A82184500BF5CC4 /* openudid */,
 				DABC99531A8214CC00BF5CC4 /* CCCryptoIOS.mm */,
 				DABC99541A8214CC00BF5CC4 /* CCNative.mm */,
 				DABC99551A8214CC00BF5CC4 /* CCNativeIOS.h */,
 				DABC99561A8214CC00BF5CC4 /* CCNativeIOS.mm */,
+				85D6C4B51B0D963900908D63 /* CCStore.mm */,
+				85D6C4B61B0D963900908D63 /* CCStoreIOS.h */,
+				85D6C4B71B0D963900908D63 /* CCStoreIOS.mm */,
+				85D6C4B81B0D963900908D63 /* CCStorePaymentTransactionWrapper.mm */,
+				85D6C4B91B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.h */,
+				85D6C4BA1B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.mm */,
+				DABC99761A82184500BF5CC4 /* json */,
+				DABC997F1A82184500BF5CC4 /* openudid */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -975,6 +1035,7 @@
 				DABC97A71A81E02900BF5CC4 /* ccFilterShader_test_frag.h in Headers */,
 				DABC97A91A81E02900BF5CC4 /* ccFilterShader_vblur_vert.h in Headers */,
 				DABC97891A81E02900BF5CC4 /* CCSharpenFilter.h in Headers */,
+				857057441B102C6F008F67CF /* CCStore.h in Headers */,
 				DABC97711A81E02900BF5CC4 /* CCCustomFilter.h in Headers */,
 				DABC97A21A81E02900BF5CC4 /* ccFilterShader_rgb_frag.h in Headers */,
 				DABC97931A81E02900BF5CC4 /* ccFilterShader_drop_shadow_vert.h in Headers */,
@@ -993,6 +1054,7 @@
 				DABC97791A81E02900BF5CC4 /* CCGammaFilter.h in Headers */,
 				DABC97871A81E02900BF5CC4 /* CCSepiaFilter.h in Headers */,
 				DABC97C51A81E02900BF5CC4 /* stb_truetype.h in Headers */,
+				857057491B102C6F008F67CF /* CCStoreProduct.h in Headers */,
 				DABC97771A81E02900BF5CC4 /* CCFilter.h in Headers */,
 				DABC978D1A81E02900BF5CC4 /* CCFilteredSprite.h in Headers */,
 				DABC97831A81E02900BF5CC4 /* CCRGBFilter.h in Headers */,
@@ -1029,6 +1091,7 @@
 				DABC97CA1A81E02900BF5CC4 /* CCHTTPRequestDelegate.h in Headers */,
 				DABC97611A81E02900BF5CC4 /* HelperFunc.h in Headers */,
 				DABC97AC1A81E02900BF5CC4 /* ccFilterShaders.h in Headers */,
+				8570574A1B102C6F008F67CF /* CCStoreProductsRequestDelegate.h in Headers */,
 				DABC97661A81E02900BF5CC4 /* CCCrypto.h in Headers */,
 				DABC97A11A81E02900BF5CC4 /* ccFilterShader_motion_blur_vert.h in Headers */,
 				DABC97A51A81E02900BF5CC4 /* ccFilterShader_sharpen_frag.h in Headers */,
@@ -1036,6 +1099,7 @@
 				DABC97961A81E02900BF5CC4 /* ccFilterShader_exposure_frag.h in Headers */,
 				87BE210A1B002BED00BBFE0A /* LuaTouchEventManager.h in Headers */,
 				871E45A51ABA18D700A60D65 /* sqlite3.h in Headers */,
+				857057471B102C6F008F67CF /* CCStorePaymentTransactionWrapper.h in Headers */,
 				DABC97941A81E02900BF5CC4 /* ccFilterShader_emboss_frag.h in Headers */,
 				DABC97BE1A81E02900BF5CC4 /* NVGNode.h in Headers */,
 				DABC979D1A81E02900BF5CC4 /* ccFilterShader_haze_frag.h in Headers */,
@@ -1052,6 +1116,7 @@
 				871E45A91ABA18D700A60D65 /* quick_extensions.h in Headers */,
 				DABC97731A81E02900BF5CC4 /* CCDropShadowFilter.h in Headers */,
 				DABC993D1A820F4700BF5CC4 /* CCNativeMac.h in Headers */,
+				857057461B102C6F008F67CF /* CCStorePaymentTransaction.h in Headers */,
 				DABC97C41A81E02900BF5CC4 /* stb_image.h in Headers */,
 				DABC97981A81E02900BF5CC4 /* ccFilterShader_gaussian_blur_frag.h in Headers */,
 				DABC97A81A81E02900BF5CC4 /* ccFilterShader_test_vert.h in Headers */,
@@ -1071,6 +1136,7 @@
 				DABC984D1A81E08700BF5CC4 /* ccFilterShader_hblur_vert.h in Headers */,
 				DABC998A1A82184500BF5CC4 /* OpenUDIDIOS.h in Headers */,
 				DABC984F1A81E08700BF5CC4 /* ccFilterShader_saturation_frag.h in Headers */,
+				85D6C4B31B0D95DD00908D63 /* CCStoreProductsRequestDelegate.h in Headers */,
 				871E45961ABA18D700A60D65 /* strbuf.h in Headers */,
 				871E45A21ABA18D700A60D65 /* lsqlite3.h in Headers */,
 				871E459E1ABA18D700A60D65 /* lpack.h in Headers */,
@@ -1091,7 +1157,9 @@
 				DABC98601A81E08700BF5CC4 /* CCExposureFilter.h in Headers */,
 				DABC98611A81E08700BF5CC4 /* CCHueFilter.h in Headers */,
 				DABC98621A81E08700BF5CC4 /* FilterShaders.h in Headers */,
+				85D6C4AF1B0D95DD00908D63 /* CCStorePaymentTransaction.h in Headers */,
 				87BE210B1B002BED00BBFE0A /* LuaTouchEventManager.h in Headers */,
+				85D6C4B41B0D95DD00908D63 /* CCStoreTransactionObserver.h in Headers */,
 				DABC98631A81E08700BF5CC4 /* CCGammaFilter.h in Headers */,
 				DABC98641A81E08700BF5CC4 /* CCSepiaFilter.h in Headers */,
 				DABC98651A81E08700BF5CC4 /* stb_truetype.h in Headers */,
@@ -1107,6 +1175,7 @@
 				DABC98701A81E08700BF5CC4 /* CCAlertViewDelegate.h in Headers */,
 				DABC98711A81E08700BF5CC4 /* CCNative.h in Headers */,
 				DABC98721A81E08700BF5CC4 /* HelperFunc_luabinding.h in Headers */,
+				85D6C4B01B0D95DD00908D63 /* CCStorePaymentTransactionWrapper.h in Headers */,
 				871E459A1ABA18D700A60D65 /* lfs.h in Headers */,
 				DABC98731A81E08700BF5CC4 /* ccFilterShader_embossmov_frag.h in Headers */,
 				DABC98741A81E08700BF5CC4 /* md5.h in Headers */,
@@ -1115,6 +1184,7 @@
 				DABC98771A81E08700BF5CC4 /* CCHTTPRequest.h in Headers */,
 				871E45AE1ABA18D700A60D65 /* lua_zlib.h in Headers */,
 				871E45AA1ABA18D700A60D65 /* quick_extensions.h in Headers */,
+				85D6C4B21B0D95DD00908D63 /* CCStoreProduct.h in Headers */,
 				871E45A61ABA18D700A60D65 /* sqlite3.h in Headers */,
 				DABC98781A81E08700BF5CC4 /* ccFilterShader_motion_blur_frag.h in Headers */,
 				DABC98791A81E08700BF5CC4 /* nanovg.h in Headers */,
@@ -1142,6 +1212,7 @@
 				DABC988B1A81E08700BF5CC4 /* ccFilterShader_sharpen_frag.h in Headers */,
 				DABC988D1A81E08700BF5CC4 /* ccFilterShader_gaussian_vblur_frag.h in Headers */,
 				DABC988E1A81E08700BF5CC4 /* ccFilterShader_exposure_frag.h in Headers */,
+				85D6C4BF1B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.h in Headers */,
 				DABC98911A81E08700BF5CC4 /* ccFilterShader_emboss_frag.h in Headers */,
 				DABC98921A81E08700BF5CC4 /* NVGNode.h in Headers */,
 				DABC98931A81E08700BF5CC4 /* ccFilterShader_haze_frag.h in Headers */,
@@ -1153,6 +1224,8 @@
 				DABC989B1A81E08700BF5CC4 /* ccFilterShader_drop_shadow_frag.h in Headers */,
 				DABC989C1A81E08700BF5CC4 /* CCGrayFilter.h in Headers */,
 				DABC99821A82184500BF5CC4 /* SBJSON.h in Headers */,
+				85D6C4BC1B0D963900908D63 /* CCStoreIOS.h in Headers */,
+				85D6C4AD1B0D95DD00908D63 /* CCStore.h in Headers */,
 				DABC989E1A81E08700BF5CC4 /* fontstash.h in Headers */,
 				DABC989F1A81E08700BF5CC4 /* CCDropShadowFilter.h in Headers */,
 				DABC98A01A81E08700BF5CC4 /* stb_image.h in Headers */,
@@ -1251,6 +1324,7 @@
 				871E45971ABA18D700A60D65 /* lfs.c in Sources */,
 				DABC97761A81E02900BF5CC4 /* CCFilter.cpp in Sources */,
 				87BE21041B002BED00BBFE0A /* LuaNodeManager.cpp in Sources */,
+				857057481B102C6F008F67CF /* CCStoreProduct.cpp in Sources */,
 				DABC993C1A820F4700BF5CC4 /* CCNative.mm in Sources */,
 				DABC976A1A81E02900BF5CC4 /* CCBlurFilter.cpp in Sources */,
 				DABC98D01A8201AF00BF5CC4 /* package_quick_register.cpp in Sources */,
@@ -1285,6 +1359,7 @@
 				DABC976C1A81E02900BF5CC4 /* CCBrightnessFilter.cpp in Sources */,
 				DABC97C01A81E02900BF5CC4 /* nanovg.c in Sources */,
 				DABC97631A81E02900BF5CC4 /* libbase64.c in Sources */,
+				857057451B102C6F008F67CF /* CCStorePaymentTransaction.cpp in Sources */,
 				DABC97601A81E02900BF5CC4 /* HelperFunc.cpp in Sources */,
 				DABC99491A820F8600BF5CC4 /* ReachabilityIOSMac.m in Sources */,
 				87BE210C1B002BED00BBFE0A /* LuaTouchTargetNode.cpp in Sources */,
@@ -1299,6 +1374,7 @@
 			files = (
 				DABC98031A81E08700BF5CC4 /* CCSepiaFilter.cpp in Sources */,
 				DABC98061A81E08700BF5CC4 /* lua_cocos2dx_extension_nanovg_manual.cpp in Sources */,
+				85D6C4BE1B0D963900908D63 /* CCStorePaymentTransactionWrapper.mm in Sources */,
 				DABC994A1A820F8600BF5CC4 /* ReachabilityIOSMac.m in Sources */,
 				DABC98091A81E08700BF5CC4 /* cocos2dx_extra_luabinding.cpp in Sources */,
 				DABC980B1A81E08700BF5CC4 /* CCExposureFilter.cpp in Sources */,
@@ -1331,10 +1407,13 @@
 				871E45A41ABA18D700A60D65 /* sqlite3.c in Sources */,
 				871E45AC1ABA18D700A60D65 /* lua_zlib.c in Sources */,
 				871E45981ABA18D700A60D65 /* lfs.c in Sources */,
+				85D6C4AE1B0D95DD00908D63 /* CCStorePaymentTransaction.cpp in Sources */,
 				DABC98241A81E08700BF5CC4 /* CCSaturationFilter.cpp in Sources */,
 				DABC982A1A81E08700BF5CC4 /* FilterShaders.cpp in Sources */,
 				DABC99461A820F8600BF5CC4 /* CCNetworkIOSMac.mm in Sources */,
+				85D6C4BB1B0D963900908D63 /* CCStore.mm in Sources */,
 				871E45941ABA18D700A60D65 /* strbuf.c in Sources */,
+				85D6C4C41B0D99EB00908D63 /* cocos2dx_extra_ios_iap_luabinding.cpp in Sources */,
 				DABC982B1A81E08700BF5CC4 /* ccFilterShaders.cpp in Sources */,
 				DABC982D1A81E08700BF5CC4 /* CCSharpenFilter.cpp in Sources */,
 				87BE21051B002BED00BBFE0A /* LuaNodeManager.cpp in Sources */,
@@ -1342,8 +1421,10 @@
 				DABC982F1A81E08700BF5CC4 /* CCTestFilter.cpp in Sources */,
 				DABC98301A81E08700BF5CC4 /* NVGDrawNode.cpp in Sources */,
 				DABC98321A81E08700BF5CC4 /* CCMaskFilter.cpp in Sources */,
+				85D6C4BD1B0D963900908D63 /* CCStoreIOS.mm in Sources */,
 				87BE21011B002BED00BBFE0A /* LuaEventNode.cpp in Sources */,
 				DABC98331A81E08700BF5CC4 /* CCRGBFilter.cpp in Sources */,
+				85D6C4C01B0D963900908D63 /* CCStoreReceiptVerifyRequestIOS.mm in Sources */,
 				DABC98351A81E08700BF5CC4 /* CCHazeFilter.cpp in Sources */,
 				DABC98371A81E08700BF5CC4 /* CCHueFilter.cpp in Sources */,
 				DABC99831A82184500BF5CC4 /* SBJSON.m in Sources */,
@@ -1355,6 +1436,7 @@
 				DABC98401A81E08700BF5CC4 /* HelperFunc.cpp in Sources */,
 				DABC98441A81E08700BF5CC4 /* CCCrypto.cpp in Sources */,
 				DABC998B1A82184500BF5CC4 /* OpenUDIDIOS.m in Sources */,
+				85D6C4B11B0D95DD00908D63 /* CCStoreProduct.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1401,7 +1483,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/extensions $(SRCROOT)/../src/extra $(SRCROOT)/../../../cocos $(SRCROOT)/../../../cocos/scripting/lua-bindings/manual $(SRCROOT)/../../../extensions $(SRCROOT)/../../../external $(SRCROOT)/../../../external/lua/luajit/include $(SRCROOT)/../../../external/lua/tolua";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/extensions $(SRCROOT)/../src/extra $(SRCROOT)/../../../cocos $(SRCROOT)/../../../cocos/scripting/lua-bindings/manual $(SRCROOT)/../../../extensions $(SRCROOT)/../../../external $(SRCROOT)/../../../external/lua/lua $(SRCROOT)/../../../external/lua/tolua";
 				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 			};
 			name = Debug;
@@ -1443,7 +1525,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/extensions $(SRCROOT)/../src/extra $(SRCROOT)/../../../cocos $(SRCROOT)/../../../cocos/scripting/lua-bindings/manual $(SRCROOT)/../../../extensions $(SRCROOT)/../../../external $(SRCROOT)/../../../external/lua/luajit/include $(SRCROOT)/../../../external/lua/tolua";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/extensions $(SRCROOT)/../src/extra $(SRCROOT)/../../../cocos $(SRCROOT)/../../../cocos/scripting/lua-bindings/manual $(SRCROOT)/../../../extensions $(SRCROOT)/../../../external $(SRCROOT)/../../../external/lua/lua $(SRCROOT)/../../../external/lua/tolua";
 				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 			};
 			name = Release;
@@ -1454,7 +1536,7 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "quick_libs MAC";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/glfw3/include/mac";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/glfw3/include/mac \"$(SRCROOT)/../../../external/lua/luajit/include\"";
 			};
 			name = Debug;
 		};
@@ -1464,7 +1546,7 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "quick_libs MAC";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/glfw3/include/mac";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/glfw3/include/mac \"$(SRCROOT)/../../../external/lua/luajit/include\"";
 			};
 			name = Release;
 		};
@@ -1481,7 +1563,7 @@
 				);
 				PRODUCT_NAME = "quick_libs IOS";
 				SDKROOT = iphoneos8.1;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/curl/include/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/curl/include/ios \"$(SRCROOT)/../../../external/lua/luajit/include\"";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
@@ -1499,7 +1581,7 @@
 				);
 				PRODUCT_NAME = "quick_libs IOS";
 				SDKROOT = iphoneos8.1;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/curl/include/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../external/curl/include/ios \"$(SRCROOT)/../../../external/lua/luajit/include\"";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
