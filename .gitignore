@@ -1,5 +1,6 @@
 .*
 *.o
+*.pyc
 *.xcscheme
 *.build/
 *.xccheckout
